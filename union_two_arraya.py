@@ -1,0 +1,6 @@
+arr1=eval(input("enter:"))
+arr2=eval(input("enter:"))
+s1=set(arr1)
+s2=set(arr2)
+s3=s1.union(s2)
+print(list(s3))
